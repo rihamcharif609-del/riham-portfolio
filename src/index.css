@@ -642,3 +642,181 @@ section:not(.hero) h2 {
   }
 
 }
+/* =========================
+   CONTACT
+========================= */
+
+.contact-section {
+  min-height: 90vh;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  border-top: 1px solid #1f1f1f;
+}
+
+.contact-content {
+  max-width: 850px;
+}
+
+.contact-small {
+  color: #8b5cf6;
+
+  font-size: 12px;
+
+  font-weight: 600;
+
+  letter-spacing: 3px;
+
+  margin-bottom: 25px;
+}
+
+.contact-content h2 {
+  font-size: clamp(60px, 9vw, 110px);
+
+  line-height: 0.95;
+
+  letter-spacing: -5px;
+
+  margin-bottom: 35px;
+}
+
+.contact-content h2 span {
+  color: #8b5cf6;
+}
+
+.contact-description {
+  max-width: 550px;
+
+  color: #888;
+
+  font-size: 17px;
+
+  margin-bottom: 30px;
+}
+
+.contact-email {
+  display: inline-block;
+
+  font-size: 18px;
+
+  color: #ffffff;
+
+  padding-bottom: 6px;
+
+  border-bottom: 1px solid #555;
+
+  transition: 0.3s;
+}
+
+.contact-email:hover {
+  color: #8b5cf6;
+
+  border-color: #8b5cf6;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+  max-width: 1200px;
+
+  margin: auto;
+
+  padding: 50px 6% 30px;
+
+  border-top: 1px solid #222;
+}
+
+.footer-content {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: start;
+
+  gap: 40px;
+
+  margin-bottom: 70px;
+}
+
+.footer-brand h3 {
+  font-size: 25px;
+
+  margin-bottom: 5px;
+}
+
+.footer-brand p {
+  color: #666;
+
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex;
+
+  gap: 30px;
+}
+
+.footer-links a {
+  color: #777;
+
+  font-size: 14px;
+
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding-top: 20px;
+
+  border-top: 1px solid #1c1c1c;
+
+  color: #444;
+
+  font-size: 12px;
+}
+
+
+/* =========================
+   FOOTER MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+  .contact-content h2 {
+    font-size: 60px;
+
+    letter-spacing: -3px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+
+    margin-bottom: 40px;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+
+    gap: 20px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+
+    gap: 10px;
+  }
+}

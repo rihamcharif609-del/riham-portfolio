@@ -829,3 +829,314 @@ section:not(.hero) h2 {
   background: #8b5cf6;
   transform: translateY(-3px);
 }
+/* =========================
+   EDUCATION
+========================= */
+
+.education-section {
+  border-top: 1px solid #1f1f1f;
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 50px;
+  margin-bottom: 70px;
+}
+
+.education-header h2 {
+  font-size: clamp(40px, 5vw, 70px);
+  line-height: 1;
+  letter-spacing: -3px;
+}
+
+.education-header h2 span {
+  color: #8b5cf6;
+}
+
+.education-header > p {
+  max-width: 400px;
+  color: #777;
+  font-size: 16px;
+}
+
+.education-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.education-column-title {
+  color: #555;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+
+/* EDUCATION CARD */
+
+.education-card {
+  border: 1px solid #242424;
+  border-radius: 15px;
+  padding: 30px;
+  transition: 0.3s;
+}
+
+.education-card:hover {
+  background: #121212;
+  border-color: #333;
+}
+
+.education-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.education-type {
+  color: #8b5cf6;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.education-period {
+  color: #555;
+  font-size: 12px;
+}
+
+.education-card h3 {
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+
+.education-institution {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.education-description {
+  color: #777;
+  font-size: 14px;
+}
+
+
+/* CERTIFICATE CARD */
+
+.certificate-card {
+  display: flex;
+  gap: 20px;
+
+  padding: 25px;
+
+  border: 1px solid #242424;
+  border-radius: 15px;
+
+  transition: 0.3s;
+}
+
+.certificate-card:hover {
+  background: #121212;
+  border-color: #333;
+}
+
+.certificate-icon {
+  width: 45px;
+  height: 45px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #8b5cf6;
+  color: white;
+
+  font-weight: bold;
+}
+
+.certificate-info h3 {
+  font-size: 20px;
+  margin: 8px 0;
+}
+
+.certificate-info p {
+  color: #777;
+  font-size: 14px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+  .education-header {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .education-content {
+    grid-template-columns: 1fr;
+  }
+
+}
+/* =========================
+   CONTACT FORM
+========================= */
+
+.contact-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: end;
+
+  gap: 60px;
+
+  margin-bottom: 70px;
+}
+
+.contact-description {
+  max-width: 400px;
+
+  color: #777;
+
+  font-size: 16px;
+}
+
+
+/* FORM */
+
+.contact-form {
+  max-width: 900px;
+}
+
+.form-row {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 30px;
+
+  margin-bottom: 30px;
+}
+
+.form-group {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  color: #aaa;
+
+  font-size: 13px;
+
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+
+  padding: 16px 18px;
+
+  background: #111;
+
+  border: 1px solid #292929;
+
+  border-radius: 8px;
+
+  color: #ffffff;
+
+  font-family: inherit;
+
+  font-size: 15px;
+
+  outline: none;
+
+  transition: 0.3s;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #555;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #8b5cf6;
+
+  background: #141414;
+}
+
+.form-group textarea {
+  resize: vertical;
+
+  min-height: 180px;
+}
+
+
+/* SUBMIT BUTTON */
+
+.submit-button {
+  padding: 15px 25px;
+
+  background: #ffffff;
+
+  color: #000000;
+
+  border: none;
+
+  border-radius: 8px;
+
+  font-family: inherit;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.submit-button:hover {
+  background: #8b5cf6;
+
+  color: #ffffff;
+
+  transform: translateY(-3px);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+  .contact-header {
+    flex-direction: column;
+
+    align-items: start;
+
+    gap: 25px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+
+    gap: 0;
+  }
+
+}

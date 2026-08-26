@@ -27,6 +27,11 @@ function Hero() {
           <a href="#contact" className="button secondary">
             Contact me
           </a>
+
+          <a href="/Riham-Charif-CV.pdf" download="Riham-Charif-CV.pdf"
+             className="button cv-button">
+             Download CV ↓
+          </a>
         </div>
 
       </div>

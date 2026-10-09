@@ -23,7 +23,9 @@ function Footer() {
           </a>
 
           <a
-            href="#"
+            href="https://www.linkedin.com/in/riham-ech-charif-72b865429/"
+            target="_blank"
+            rel="noreferrer"
           >
             LinkedIn ↗
           </a>

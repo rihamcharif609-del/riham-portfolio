@@ -3,9 +3,16 @@ function ProjectCard({ project, number }) {
     <article className="project-card">
 
       <div className="project-image">
+        {project.image ? (
+          <img
+          src={project.image}
+          alt={`${project.title} project screenshot`}
+          />
+        ) : (
         <div className="project-image-placeholder">
           <span>{project.title}</span>
         </div>
+        )}
       </div>
 
       <div className="project-info">

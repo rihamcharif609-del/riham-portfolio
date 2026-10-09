@@ -112,7 +112,7 @@ a {
 }
 
 .hero-label {
-  color: #8b5cf6;
+  color: rgb(212, 79, 130);
 
   font-size: 13px;
   font-weight: 600;
@@ -133,7 +133,7 @@ a {
 }
 
 .hero h1 span {
-  color: #8b5cf6;
+  color: rgb(212, 79, 130);
 }
 
 .hero-description {
@@ -287,7 +287,7 @@ section:not(.hero) h2 {
 }
 
 .about-title span {
-  color: #8b5cf6;
+  color: rgb(212, 79, 130)
 }
 
 .about-text {
@@ -328,7 +328,7 @@ section:not(.hero) h2 {
 }
 
 .skills-header h2 span {
-  color: #8b5cf6;
+  color: rgb(212, 79, 130);
 }
 
 .skills-header p {
@@ -447,7 +447,7 @@ section:not(.hero) h2 {
 }
 
 .projects-header h2 span {
-  color: #8b5cf6;
+  color: rgb(212, 79, 130);
 }
 
 .projects-header p {
@@ -483,10 +483,6 @@ section:not(.hero) h2 {
 /* PROJECT IMAGE */
 
 .project-image {
-  width: 100%;
-
-  aspect-ratio: 16 / 10;
-
   overflow: hidden;
 
   border-radius: 16px;
@@ -519,6 +515,18 @@ section:not(.hero) h2 {
   transition: 0.4s;
 }
 
+.project-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-image img {
+  transform: scale(1.03);
+}
+
 .project-card:hover .project-image-placeholder {
   transform: scale(1.03);
 }
@@ -539,7 +547,7 @@ section:not(.hero) h2 {
 }
 
 .project-number {
-  color: #8b5cf6;
+  color: rgb(212, 79, 130);
 
   font-size: 13px;
 }
@@ -611,9 +619,9 @@ section:not(.hero) h2 {
 }
 
 .project-links a:hover {
-  color: #8b5cf6;
+  color: rgb(212, 79, 130);
 
-  border-color: #8b5cf6;
+  border-color: rgb(212, 79, 130);
 }
 
 
@@ -663,7 +671,7 @@ section:not(.hero) h2 {
 }
 
 .contact-small {
-  color: #8b5cf6;
+  color: rgb(212, 79, 130);
 
   font-size: 12px;
 
@@ -685,7 +693,7 @@ section:not(.hero) h2 {
 }
 
 .contact-content h2 span {
-  color: #8b5cf6;
+  color:rgb(212, 79, 130);
 }
 
 .contact-description {
@@ -713,9 +721,9 @@ section:not(.hero) h2 {
 }
 
 .contact-email:hover {
-  color: #8b5cf6;
+  color: rgb(212, 79, 130);
 
-  border-color: #8b5cf6;
+  border-color: rgb(212, 79, 130);
 }
 
 
@@ -821,12 +829,12 @@ section:not(.hero) h2 {
   }
 }
 .cv-button {
-  border: 1px solid #8b5cf6;
+  border: 1px solid rgb(212, 79, 130);
   color: #ffffff;
 }
 
 .cv-button:hover {
-  background: #8b5cf6;
+  background: rgb(212, 79, 130);
   transform: translateY(-3px);
 }
 /* =========================
@@ -852,7 +860,7 @@ section:not(.hero) h2 {
 }
 
 .education-header h2 span {
-  color: #8b5cf6;
+  color: rgb(212, 79, 130);
 }
 
 .education-header > p {
@@ -898,7 +906,7 @@ section:not(.hero) h2 {
 }
 
 .education-type {
-  color: #8b5cf6;
+  color: rgb(212, 79, 130);
   font-size: 10px;
   font-weight: 600;
   letter-spacing: 2px;
@@ -956,7 +964,7 @@ section:not(.hero) h2 {
 
   border-radius: 50%;
 
-  background: #8b5cf6;
+  background: rgb(212, 79, 130);
   color: white;
 
   font-weight: bold;
@@ -1076,7 +1084,7 @@ section:not(.hero) h2 {
 
 .form-group input:focus,
 .form-group textarea:focus {
-  border-color: #8b5cf6;
+  border-color: rgb(212, 79, 130);
 
   background: #141414;
 }
@@ -1113,7 +1121,7 @@ section:not(.hero) h2 {
 }
 
 .submit-button:hover {
-  background: #8b5cf6;
+  background: rgb(212, 79, 130);
 
   color: #ffffff;
 

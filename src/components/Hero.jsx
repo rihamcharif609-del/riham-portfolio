@@ -28,7 +28,7 @@ function Hero() {
             Contact me
           </a>
 
-          <a href="/Riham-Charif-CV.pdf" download="Riham-Charif-CV.pdf"
+          <a href="/Professional CV.pdf" download="/Professional CV.pdf"
              className="button cv-button">
              Download CV ↓
           </a>

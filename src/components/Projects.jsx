@@ -5,6 +5,8 @@ const projects = [
     title: "DeliverX",
     type: "FULL-STACK APPLICATION",
 
+    image: "/deliverX.png",
+
     description:
       "A delivery platform that connects senders with couriers. Users can create delivery requests, track packages, and manage deliveries.",
 
@@ -23,6 +25,8 @@ const projects = [
   {
     title: "Project Two",
     type: "WEB APPLICATION",
+
+    image: "#",
 
     description:
       "A modern web application built to solve a real-world problem.",

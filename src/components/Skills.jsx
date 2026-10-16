@@ -7,8 +7,8 @@ const skills = [
   "Laravel",
   "MySQL",
   "MongoDB",
-  "Git",
-  "GitHub",
+  "Python",
+  "Git/GitHub",
 ];
 
 function Skills() {
